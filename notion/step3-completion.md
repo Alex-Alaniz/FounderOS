@@ -97,11 +97,13 @@ Due to Notion API limitations, **filters cannot be applied programmatically** to
 - **Action**: Add relation in future step (Step 4 or 5)
 
 ### Follow-up Actions
-- [ ] Apply filters manually to all Product Hub views
+- [ ] Apply filters manually to all Product Hub views (see `MANUAL-FILTER-CONFIGURATION-GUIDE.md`)
 - [ ] Verify each view displays correct filtered data
 - [ ] Post Slack update to #founder-os channel
 - [ ] Add Team-Tasks relation to schema (future)
 - [ ] Update Product Hub pages with rollup once relation exists
+
+**Note**: Manual filter configuration guide created at `notion/MANUAL-FILTER-CONFIGURATION-GUIDE.md`
 
 ## 📋 Verification Checklist
 
