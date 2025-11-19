@@ -1,0 +1,34 @@
+{
+    "issues": [
+      { "title": "BEARO — Add Cross-Product Roadmap View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARO — Add Engineering Kanban View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARO — Add Blockers & At-Risk Items View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARO — Add Agent Workload Overview", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARO — Add Linear Issue Feed", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+  
+      { "title": "AlphaBuilder — Add Cross-Product Roadmap View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "AlphaBuilder — Add Engineering Kanban View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "AlphaBuilder — Add Blockers & At-Risk Items View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "AlphaBuilder — Add Agent Workload Overview", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "AlphaBuilder — Add Linear Issue Feed", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+  
+      { "title": "Primape — Add Cross-Product Roadmap View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Primape — Add Engineering Kanban View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Primape — Add Blockers & At-Risk Items View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Primape — Add Agent Workload Overview", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Primape — Add Linear Issue Feed", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+  
+      { "title": "Chimpanion — Add Cross-Product Roadmap View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Chimpanion — Add Engineering Kanban View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Chimpanion — Add Blockers & At-Risk Items View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Chimpanion — Add Agent Workload Overview", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "Chimpanion — Add Linear Issue Feed", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+  
+      { "title": "BEARCO Ecosystem — Add Cross-Product Roadmap View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARCO Ecosystem — Add Engineering Kanban View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARCO Ecosystem — Add Blockers & At-Risk Items View", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARCO Ecosystem — Add Agent Workload Overview", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" },
+      { "title": "BEARCO Ecosystem — Add Linear Issue Feed", "team": "BearifiedCo", "project": "FounderOS — Step 4 Sprint" }
+    ]
+  }
+  

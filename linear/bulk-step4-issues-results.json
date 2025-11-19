@@ -1,0 +1,280 @@
+{
+  "success": [
+    {
+      "title": "BEARO — Add Cross-Product Roadmap View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "5ec7850f-d324-4ebd-b7d9-c27a6cb731b4",
+        "identifier": "BEA-20",
+        "title": "BEARO — Add Cross-Product Roadmap View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-20/bearo-add-cross-product-roadmap-view"
+      }
+    },
+    {
+      "title": "BEARO — Add Engineering Kanban View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "62891aa2-2e58-46ab-8464-6fcfb4c89df0",
+        "identifier": "BEA-21",
+        "title": "BEARO — Add Engineering Kanban View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-21/bearo-add-engineering-kanban-view"
+      }
+    },
+    {
+      "title": "BEARO — Add Blockers & At-Risk Items View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "94bc1e77-92be-4bcf-8ac9-e2e0bf249828",
+        "identifier": "BEA-22",
+        "title": "BEARO — Add Blockers & At-Risk Items View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-22/bearo-add-blockers-and-at-risk-items-view"
+      }
+    },
+    {
+      "title": "BEARO — Add Agent Workload Overview",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "dabff61f-f4b0-4683-b06a-40a67b0cf0a1",
+        "identifier": "BEA-23",
+        "title": "BEARO — Add Agent Workload Overview",
+        "url": "https://linear.app/bearifiedco/issue/BEA-23/bearo-add-agent-workload-overview"
+      }
+    },
+    {
+      "title": "BEARO — Add Linear Issue Feed",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "601c00b5-a0d9-49f9-8f7c-358890c41a97",
+        "identifier": "BEA-24",
+        "title": "BEARO — Add Linear Issue Feed",
+        "url": "https://linear.app/bearifiedco/issue/BEA-24/bearo-add-linear-issue-feed"
+      }
+    },
+    {
+      "title": "AlphaBuilder — Add Cross-Product Roadmap View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "bda01f4d-5be7-4648-b3c8-20be4437880b",
+        "identifier": "BEA-25",
+        "title": "AlphaBuilder — Add Cross-Product Roadmap View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-25/alphabuilder-add-cross-product-roadmap-view"
+      }
+    },
+    {
+      "title": "AlphaBuilder — Add Engineering Kanban View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "fe437212-a55b-4d06-8173-278c729a8d58",
+        "identifier": "BEA-26",
+        "title": "AlphaBuilder — Add Engineering Kanban View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-26/alphabuilder-add-engineering-kanban-view"
+      }
+    },
+    {
+      "title": "AlphaBuilder — Add Blockers & At-Risk Items View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "95206b4c-1e1d-417c-b5a1-b254aaaac133",
+        "identifier": "BEA-27",
+        "title": "AlphaBuilder — Add Blockers & At-Risk Items View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-27/alphabuilder-add-blockers-and-at-risk-items-view"
+      }
+    },
+    {
+      "title": "AlphaBuilder — Add Agent Workload Overview",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "685fdbae-3ca1-4e1e-b104-5c92887dce2a",
+        "identifier": "BEA-28",
+        "title": "AlphaBuilder — Add Agent Workload Overview",
+        "url": "https://linear.app/bearifiedco/issue/BEA-28/alphabuilder-add-agent-workload-overview"
+      }
+    },
+    {
+      "title": "AlphaBuilder — Add Linear Issue Feed",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "5456e707-d39b-4174-a04e-853da39813f2",
+        "identifier": "BEA-29",
+        "title": "AlphaBuilder — Add Linear Issue Feed",
+        "url": "https://linear.app/bearifiedco/issue/BEA-29/alphabuilder-add-linear-issue-feed"
+      }
+    },
+    {
+      "title": "Primape — Add Cross-Product Roadmap View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "8daab5c4-ad8d-4768-8ee5-2c22d1541bc8",
+        "identifier": "BEA-30",
+        "title": "Primape — Add Cross-Product Roadmap View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-30/primape-add-cross-product-roadmap-view"
+      }
+    },
+    {
+      "title": "Primape — Add Engineering Kanban View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "d3ed4d93-265c-4782-8202-507518650fb5",
+        "identifier": "BEA-31",
+        "title": "Primape — Add Engineering Kanban View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-31/primape-add-engineering-kanban-view"
+      }
+    },
+    {
+      "title": "Primape — Add Blockers & At-Risk Items View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "0ef044ca-43f7-4bb0-80fe-95d30ddb6201",
+        "identifier": "BEA-32",
+        "title": "Primape — Add Blockers & At-Risk Items View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-32/primape-add-blockers-and-at-risk-items-view"
+      }
+    },
+    {
+      "title": "Primape — Add Agent Workload Overview",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "7e3b8169-98c8-47b2-9dc6-a86c905b899d",
+        "identifier": "BEA-33",
+        "title": "Primape — Add Agent Workload Overview",
+        "url": "https://linear.app/bearifiedco/issue/BEA-33/primape-add-agent-workload-overview"
+      }
+    },
+    {
+      "title": "Primape — Add Linear Issue Feed",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "b1db1c66-2690-479d-ad69-9e2beb0a30f8",
+        "identifier": "BEA-34",
+        "title": "Primape — Add Linear Issue Feed",
+        "url": "https://linear.app/bearifiedco/issue/BEA-34/primape-add-linear-issue-feed"
+      }
+    },
+    {
+      "title": "Chimpanion — Add Cross-Product Roadmap View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "6a08fc19-9c67-470c-9af6-178103ee0c6c",
+        "identifier": "BEA-35",
+        "title": "Chimpanion — Add Cross-Product Roadmap View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-35/chimpanion-add-cross-product-roadmap-view"
+      }
+    },
+    {
+      "title": "Chimpanion — Add Engineering Kanban View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "b62ba541-e17f-4291-b790-b99c683903b1",
+        "identifier": "BEA-36",
+        "title": "Chimpanion — Add Engineering Kanban View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-36/chimpanion-add-engineering-kanban-view"
+      }
+    },
+    {
+      "title": "Chimpanion — Add Blockers & At-Risk Items View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "b041b144-006d-42a0-952c-1c602961b70b",
+        "identifier": "BEA-37",
+        "title": "Chimpanion — Add Blockers & At-Risk Items View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-37/chimpanion-add-blockers-and-at-risk-items-view"
+      }
+    },
+    {
+      "title": "Chimpanion — Add Agent Workload Overview",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "46459b5f-7e77-4643-a014-534584fe3131",
+        "identifier": "BEA-38",
+        "title": "Chimpanion — Add Agent Workload Overview",
+        "url": "https://linear.app/bearifiedco/issue/BEA-38/chimpanion-add-agent-workload-overview"
+      }
+    },
+    {
+      "title": "Chimpanion — Add Linear Issue Feed",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "c56300c9-ae6c-4f57-a459-83503b60f2e8",
+        "identifier": "BEA-39",
+        "title": "Chimpanion — Add Linear Issue Feed",
+        "url": "https://linear.app/bearifiedco/issue/BEA-39/chimpanion-add-linear-issue-feed"
+      }
+    },
+    {
+      "title": "BEARCO Ecosystem — Add Cross-Product Roadmap View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "4f5b35c3-f3aa-445b-8db4-cbde0623b2b6",
+        "identifier": "BEA-40",
+        "title": "BEARCO Ecosystem — Add Cross-Product Roadmap View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-40/bearco-ecosystem-add-cross-product-roadmap-view"
+      }
+    },
+    {
+      "title": "BEARCO Ecosystem — Add Engineering Kanban View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "2d642e4b-3074-4b5e-a5b2-f6e11130a1a7",
+        "identifier": "BEA-41",
+        "title": "BEARCO Ecosystem — Add Engineering Kanban View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-41/bearco-ecosystem-add-engineering-kanban-view"
+      }
+    },
+    {
+      "title": "BEARCO Ecosystem — Add Blockers & At-Risk Items View",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "431fc066-5b5f-4bef-bc3e-b49b3b947ba8",
+        "identifier": "BEA-42",
+        "title": "BEARCO Ecosystem — Add Blockers & At-Risk Items View",
+        "url": "https://linear.app/bearifiedco/issue/BEA-42/bearco-ecosystem-add-blockers-and-at-risk-items-view"
+      }
+    },
+    {
+      "title": "BEARCO Ecosystem — Add Agent Workload Overview",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "4d716a3d-21b9-4be0-a4eb-036bc794fa6d",
+        "identifier": "BEA-43",
+        "title": "BEARCO Ecosystem — Add Agent Workload Overview",
+        "url": "https://linear.app/bearifiedco/issue/BEA-43/bearco-ecosystem-add-agent-workload-overview"
+      }
+    },
+    {
+      "title": "BEARCO Ecosystem — Add Linear Issue Feed",
+      "team": "BearifiedCo",
+      "project": "FounderOS — Step 4 Sprint",
+      "linearIssue": {
+        "id": "f75a928a-bc42-4521-ad50-3a5bc5b5d481",
+        "identifier": "BEA-44",
+        "title": "BEARCO Ecosystem — Add Linear Issue Feed",
+        "url": "https://linear.app/bearifiedco/issue/BEA-44/bearco-ecosystem-add-linear-issue-feed"
+      }
+    }
+  ],
+  "failed": []
+}
