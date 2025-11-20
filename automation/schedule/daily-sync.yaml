@@ -1,0 +1,34 @@
+version: 1
+timezone: UTC
+description: Daily FounderOS automation loop
+
+jobs:
+  - name: sync-notion-to-linear
+    schedule: "0 5 * * *"
+    command: "node automation/notion-to-linear.js"
+    env:
+      NODE_ENV: production
+
+  - name: sync-linear-to-notion
+    schedule: "10 5 * * *"
+    command: "node automation/linear-to-notion.js"
+    depends_on:
+      - sync-notion-to-linear
+
+  - name: sync-github-prs
+    schedule: "20 5 * * *"
+    command: "node automation/pr-sync.js"
+    depends_on:
+      - sync-linear-to-notion
+
+  - name: rebalance-task-load
+    schedule: "30 5 * * *"
+    command: "node automation/task-manager.js"
+    depends_on:
+      - sync-github-prs
+
+notifications:
+  - type: slack
+    channel: "#founder-os"
+    message: "Daily automation loop completed for {{ date }} (UTC). See logs/automation-daily.md for details."
+

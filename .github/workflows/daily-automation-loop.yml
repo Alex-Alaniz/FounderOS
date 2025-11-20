@@ -1,0 +1,52 @@
+name: Daily Automation Loop
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  automation-loop:
+    runs-on: ubuntu-latest
+    env:
+      NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+      NOTION_TASK_DB_ID: 701e66c648e54c1ea025dac5888421f0
+      NOTION_PRODUCTS_DB_ID: 3b67dfdd81fc4f7cacce9e0e3572b620
+      NOTION_TEAM_DB_ID: 1a8e1f1d432f41ac826d14da993c9b6a
+      NOTION_GITHUB_DB_ID: a256468f56d145f0a17d4ed8628daeaa
+      NOTION_LINEAR_DB_ID: ${{ secrets.NOTION_LINEAR_DB_ID }}
+      NOTION_AUTOMATION_LOG_DB_ID: ${{ secrets.NOTION_AUTOMATION_LOG_DB_ID }}
+      LINEAR_API_KEY: ${{ secrets.LINEAR_API_KEY }}
+      LINEAR_TEAM_BY_PRODUCT: '{"bearo":"BEAR","alphabuilder":"ALPHA","primape":"PRIM","chimpanion":"CHIMP","founderos":"FOS"}'
+      LINEAR_ASSIGNEE_MAP: ${{ secrets.LINEAR_ASSIGNEE_MAP }}
+      LINEAR_STATE_MAP: ${{ secrets.LINEAR_STATE_MAP }}
+      LINEAR_PRIORITY_MAP: '{"P0":1,"P1":2,"P2":3,"P3":4}'
+      GITHUB_TOKEN: ${{ secrets.AUTOMATION_GITHUB_TOKEN }}
+      GITHUB_REPOSITORY: BearifiedCo/FounderOS
+      AUTOMATION_AGENT_ROSTER: '["Composer","Codex","Claude","Gemini"]'
+      AUTOMATION_MAX_TASKS_PER_AGENT: 3
+      AUTOMATION_LOOKBACK_HOURS: 24
+      AUTOMATION_LOG_FILE: logs/automation-daily.md
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Sync Notion to Linear
+        run: node automation/notion-to-linear.js
+
+      - name: Sync Linear to Notion
+        run: node automation/linear-to-notion.js
+
+      - name: Sync PR data
+        env:
+          GITHUB_TOKEN: ${{ secrets.AUTOMATION_GITHUB_TOKEN }}
+        run: node automation/pr-sync.js
+
+      - name: Rebalance task load
+        run: node automation/task-manager.js
+
