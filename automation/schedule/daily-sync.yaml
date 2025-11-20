@@ -1,0 +1,75 @@
+# FounderOS Daily Automation Schedule
+# This file defines the daily automation loop for syncing Notion ↔ Linear ↔ GitHub
+
+schedule:
+  # Run daily at 9:00 AM UTC (configurable)
+  cron: "0 9 * * *"
+  timezone: "UTC"
+
+workflows:
+  - name: "Daily Sync Loop"
+    description: "Full bidirectional sync of Notion, Linear, and GitHub"
+    steps:
+      - name: "Sync Notion → Linear"
+        script: "automation/notion-to-linear.js"
+        timeout: 300  # 5 minutes
+        retry: 2
+        
+      - name: "Sync Linear → Notion"
+        script: "automation/linear-to-notion.js"
+        timeout: 300
+        retry: 2
+        
+      - name: "Sync GitHub PRs"
+        script: "automation/pr-sync.js"
+        timeout: 300
+        retry: 2
+        
+      - name: "Assign Tasks to Agents"
+        script: "automation/task-manager.js"
+        timeout: 180
+        retry: 1
+
+notifications:
+  # Slack channel for automation updates
+  slack_channel: "#founder-os"
+  
+  # Email notifications (optional)
+  email:
+    enabled: false
+    recipients: []
+
+logging:
+  # Log directory
+  directory: "logs"
+  
+  # Log retention (days)
+  retention_days: 30
+  
+  # Log levels: DEBUG, INFO, WARN, ERROR
+  level: "INFO"
+
+environment:
+  # Required environment variables
+  required:
+    - NOTION_API_KEY
+    - LINEAR_API_KEY
+    - GITHUB_TOKEN
+  
+  # Optional environment variables
+  optional:
+    - LINEAR_TEAM_ID
+    - GITHUB_OWNER
+    - GITHUB_REPO
+
+# Error handling
+error_handling:
+  # Continue on error (don't stop entire workflow)
+  continue_on_error: true
+  
+  # Maximum errors before alerting
+  max_errors: 5
+  
+  # Alert threshold (percentage of tasks failing)
+  alert_threshold: 0.2
+

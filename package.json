@@ -104,7 +104,12 @@
     "zod": "^3.25.76"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" "test": "echo \"Error: no test specified\" && exit 1""test": "echo \"Error: no test specified\" && exit 1" exit 1",
+    "sync:daily": "node automation/daily-sync.js",
+    "sync:notion-linear": "node automation/notion-to-linear.js",
+    "sync:linear-notion": "node automation/linear-to-notion.js",
+    "sync:prs": "node automation/pr-sync.js",
+    "assign:tasks": "node automation/task-manager.js"
   },
   "repository": {
     "type": "git",
