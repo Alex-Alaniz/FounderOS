@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Milestone cards preview">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#040C1A" />
+      <stop offset="100%" stop-color="#05020C" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#FB923C" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg2)" rx="32" />
+  <text x="80" y="120" fill="#F8FAFC" font-size="40" font-weight="700" font-family="Inter">$50M MC — Growth</text>
+  <text x="80" y="170" fill="#CBD5F5" font-size="20" font-family="Inter">Pods, creator markets, and partner graph integrations.</text>
+  <g transform="translate(80 220)">
+    <rect width="520" height="200" rx="28" fill="rgba(247,114,182,0.15)" stroke="rgba(247,114,182,0.35)" />
+    <text x="32" y="60" fill="#FDEEF8" font-size="28" font-family="Inter" font-weight="600">Primape Creator Markets</text>
+    <text x="32" y="110" fill="#FDEEF8" font-size="18" font-family="Inter" opacity="0.8">Token-driven contests spin up in &lt;10 minutes.</text>
+    <text x="32" y="150" fill="#FEC6D7" font-size="14" letter-spacing="0.3em" font-family="Inter">STATUS · PLANNED</text>
+  </g>
+  <g transform="translate(680 220)">
+    <rect width="520" height="200" rx="28" fill="rgba(34,211,238,0.12)" stroke="rgba(125,211,252,0.25)" />
+    <text x="32" y="60" fill="#D7FBFF" font-size="28" font-family="Inter" font-weight="600">BEARO Merchant Pods</text>
+    <text x="32" y="110" fill="#D7FBFF" font-size="18" font-family="Inter" opacity="0.8">Automated GTM pods activate 100 merchants/wk.</text>
+    <text x="32" y="150" fill="#C3EDFF" font-size="14" letter-spacing="0.3em" font-family="Inter">STATUS · PLANNED</text>
+  </g>
+  <g transform="translate(80 460)">
+    <rect width="1120" height="180" rx="32" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.2)" />
+    <text x="40" y="120" fill="#FFFFFF" font-size="26" font-family="Inter">Token-holder initiatives are locked → Unlock Protocol gate reveals remaining roadmap.</text>
+    <circle cx="1070" cy="90" r="36" fill="url(#card)" />
+    <text x="1045" y="98" fill="#0A0612" font-size="14" font-family="Inter" font-weight="700">LOCK</text>
+  </g>
+</svg>

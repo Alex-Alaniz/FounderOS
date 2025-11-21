@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Roadmap microsite hero mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12052C" />
+      <stop offset="70%" stop-color="#030109" />
+    </linearGradient>
+    <linearGradient id="headline" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9CBFF" />
+      <stop offset="100%" stop-color="#7DD3FC" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" rx="32" />
+  <circle cx="180" cy="120" r="110" fill="#8B5CF6" opacity="0.35" />
+  <circle cx="1100" cy="500" r="160" fill="#0EA5E9" opacity="0.25" />
+  <text x="80" y="140" fill="#B7B8D7" font-family="Inter, 'SF Pro Display', sans-serif" font-size="18" letter-spacing="0.4em">BEARIFIEDCO ROADMAP</text>
+  <text x="80" y="230" fill="url(#headline)" font-family="Inter, 'SF Pro Display', sans-serif" font-size="54" font-weight="700">One-Person $1B Company</text>
+  <text x="80" y="300" fill="#D1D5F9" font-family="Inter, 'SF Pro Display', sans-serif" font-size="22" opacity="0.8">Scroll to see how we go from $25M → $100M MC with AI + tokens.</text>
+  <g transform="translate(80 360)">
+    <rect width="320" height="120" rx="24" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" />
+    <text x="24" y="40" fill="#9CA3C6" font-size="13" font-family="Inter" letter-spacing="0.4em">FEED</text>
+    <text x="24" y="78" fill="#F5F6FF" font-size="32" font-family="Inter" font-weight="600">Live Notion</text>
+  </g>
+  <g transform="translate(430 360)">
+    <rect width="320" height="120" rx="24" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" />
+    <text x="24" y="40" fill="#9CA3C6" font-size="13" font-family="Inter" letter-spacing="0.4em">NOTION</text>
+    <text x="24" y="78" fill="#F5F6FF" font-size="32" font-family="Inter" font-weight="600">Command</text>
+  </g>
+  <g transform="translate(780 360)">
+    <rect width="320" height="120" rx="24" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" />
+    <text x="24" y="40" fill="#9CA3C6" font-size="13" font-family="Inter" letter-spacing="0.4em">LORE</text>
+    <text x="24" y="78" fill="#F5F6FF" font-size="32" font-family="Inter" font-weight="600">One-Person</text>
+  </g>
+</svg>
