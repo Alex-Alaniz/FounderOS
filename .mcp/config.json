@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "description": "FounderOS MCP Configuration - Integrates Linear, Notion, GitHub for AI assistant access",
+  "servers": {
+    "linear": {
+      "configPath": "./servers/linear.json",
+      "workspace": "BearifiedCo",
+      "teamId": "199361fb-b484-4f6b-8bea-4ab36b87e487"
+    },
+    "notion": {
+      "configPath": "./servers/notion.json",
+      "workspace": "FounderOS - BearifiedCo Command Center",
+      "databases": ["Tasks", "GitHub Sync", "Linear Sync", "Team", "Products", "CRM"]
+    },
+    "github": {
+      "configPath": "./servers/github.json",
+      "organization": "BearifiedCo",
+      "repositories": ["FounderOS", "storefront-labs-iot-backend"]
+    }
+  }
+}
